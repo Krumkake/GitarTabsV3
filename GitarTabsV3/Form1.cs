@@ -41,6 +41,11 @@ namespace GitarTabsV3
 
         private void ReadFiles()
         {
+            if(!File.Exists("settings.txt") || settings.Length == 1)
+            {
+                Console.WriteLine("No file path");
+                return;
+            }
             settings = File.ReadAllLines("settings.txt");
             a = File.ReadAllLines(settings[1]);
             LoadStrings();
@@ -233,8 +238,16 @@ namespace GitarTabsV3
             fileDialog.Filter = "Text File|*.txt";
             if (fileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                settings[1] = fileDialog.FileName;
-                File.WriteAllLines("settings.txt", settings);
+                string[] previousOpenedFile = { "Siste tab: ", fileDialog.FileName };
+                if (!File.Exists("settings.txt")) {
+                    using (FileStream fs = File.Create("settings.txt"))
+                    {
+                        // Add some text to file    
+                        Byte[] title = new UTF8Encoding(true).GetBytes("New Text File");
+                        fs.Write(title, 0, title.Length);
+                    }
+                }
+                File.WriteAllLines("settings.txt", previousOpenedFile);
                 titleLabelUpdate(fileDialog.FileName);
             }
             ReadFiles();
@@ -267,9 +280,13 @@ namespace GitarTabsV3
         private void EditBtnLabel_Click(object sender, EventArgs e)
         {
             MenuForm1 f = new MenuForm1();
-            f.AdviseParent += new EventHandler<AdviseParentEventArgs>();
+            f.AdviseParent += new EventHandler<AdviseParentEventArgs>(adviseParent);
             f.Show();
+        }
 
+        private void adviseParent(object sender, AdviseParentEventArgs e)
+        {
+            Console.WriteLine("WAHO JEG LIKER GLONT");
         }
 
         private void ButtonAnimasjon(object sender)

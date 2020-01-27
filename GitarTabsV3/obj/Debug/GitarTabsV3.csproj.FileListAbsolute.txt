@@ -8,3 +8,13 @@ C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.csproj
 C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.exe
 C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.pdb
 C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.MenuForm1.resources
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\bin\Debug\GitarTabsV3.exe.config
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\bin\Debug\GitarTabsV3.exe
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\bin\Debug\GitarTabsV3.pdb
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.csprojAssemblyReference.cache
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.Form1.resources
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.MenuForm1.resources
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.Properties.Resources.resources
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.csproj.GenerateResource.cache
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.exe
+C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.pdb

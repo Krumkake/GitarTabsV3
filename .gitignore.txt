@@ -1,0 +1,1 @@
+/GitarTabsV3/bin/Debug/settings.txt
