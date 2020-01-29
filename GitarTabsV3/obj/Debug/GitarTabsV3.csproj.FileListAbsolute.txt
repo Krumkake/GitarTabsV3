@@ -18,3 +18,4 @@ C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.Propertie
 C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.csproj.GenerateResource.cache
 C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.exe
 C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.pdb
+C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.Form2.resources

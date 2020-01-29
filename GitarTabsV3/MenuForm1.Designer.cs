@@ -64,7 +64,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(24, 30);
             this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -73,7 +72,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(24, 30);
             this.textBox3.TabIndex = 7;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
@@ -103,7 +101,6 @@
             this.LengthTextBox.Name = "LengthTextBox";
             this.LengthTextBox.Size = new System.Drawing.Size(85, 30);
             this.LengthTextBox.TabIndex = 10;
-            this.LengthTextBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // MenuForm1
             // 
@@ -119,6 +116,7 @@
             this.Controls.Add(this.label1);
             this.Name = "MenuForm1";
             this.Text = "MenuForm1";
+            this.Load += new System.EventHandler(this.MenuForm1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
