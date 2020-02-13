@@ -19,3 +19,6 @@ C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.csproj.Ge
 C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.exe
 C:\Users\birke\Documents\gitartabsv3\GitarTabsV3\obj\Debug\GitarTabsV3.pdb
 C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.Form2.resources
+C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.Form3.resources
+C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.Form4.resources
+C:\Users\kaje-\source\repos\GitarTabsV3\GitarTabsV3\obj\Debug\GitarTabsV3.LeseForm.resources

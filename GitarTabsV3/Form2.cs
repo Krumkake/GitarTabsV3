@@ -27,10 +27,13 @@ namespace GitarTabsV3
         {
             label1.Text = s;
         }
-
+        /// <summary>
+        /// fikser problemet ved å slette hele settings filen.
+        /// </summary>
         private void button1_Click(object sender, EventArgs e)
         {
             File.Delete("settings.txt");
+            this.Close();
         }
     }
 }
